@@ -8,7 +8,7 @@
         BACKUPDIR=`date +%Y%m%d%H%M%S`
         #OLDBACKUPDIR=/opt/tmp/OLDBACKUP;
         DOCROOT=/var/www/html/sheroes
-        S3BUCKET=lncwebsite
+        S3BUCKET=mohsin7007
         logger "$DATE Deploying the application";
         if [ $ACTION = "deploy" ]
                 then
